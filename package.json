@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/main.js",
+  "private": true,
+  "engines": {
+    "node": ">= 18.0.0",
+    "npm": ">= 8.0.0"
+  },
   "scripts": {
     "build": "tsc",
     "lint": "npm run lint-eslint && npm run lint-prettier",
